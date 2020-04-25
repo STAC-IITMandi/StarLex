@@ -84,10 +84,13 @@ k=float(input("Enter opacity"))
 q=float(input("Enter energy transfer"))
 d=float(input("Enter mean density"))
 chem1=chemcom(k,q,d)
+
+# star class
 r=float(input("Enter radius"))
 l=luminousity(r)
 m=massatr(r)
 time=float(input("enter time"))
 t=temperature(r)
 star1=stellar(l,r,m,time,t)
+# display star model
 star1.star()
